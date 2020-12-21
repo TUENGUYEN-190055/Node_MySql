@@ -4,7 +4,7 @@ const db = require('./lib/db');
 //db: connect()
 const con = db.connect();
 
-const email = 'itoh@example.com';
+const email = 'suzuki@example.com';
 let sql = 'DELETE FROM users WHERE email = ?;';
 
 //let params = { email: email };
